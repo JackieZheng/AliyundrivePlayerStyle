@@ -14,8 +14,8 @@ GM_addStyle(".video-player,.video-player--29_72{bottom: 0px !important;left: uns
 GM_addStyle(".icon,.icon--d-ejA,.icon--d-ejA[data-render-as=svg] svg,.nav-text,.nav-text--2o_Eh,.filename,.filename--zkxdz,.nav-actions--3xj7P{fill:#aaaaaa61 !important;color:#aaaaaa61;}");
 GM_addStyle(".toolbar-wrapper[data-visible=true],.toolbar-wrapper--1NDow[data-visible=true] {opacity: .4 !important;}");
 GM_addStyle(".video-player.show,.video-player--29_72.show--Zy5bU {opacity: .4 !important;}");
-GM_addStyle(".video-player.show,.video-player--29_72.show--Zy5bU {opacity: .4 !important;}");
-GM_addStyle(".video-stage.video,.video-stage.thumbnail,.video-stage--3LCB4.video--26SLZ, .video-stage--3LCB4.thumbnail--2T1JI{top: 60px;height: calc( 100% - 60px );}");
+GM_addStyle("video{top:60px !important;height:calc( 100% - 60px ) !important;}");
+GM_addStyle(".video-stage.video,.video-stage.thumbnail,.video-stage--3LCB4.video--26SLZ,.video-stage--3LCB4.thumbnail--2T1JI{top:60px !important;height:calc( 100% - 60px ) !important;}");
 
 
 
