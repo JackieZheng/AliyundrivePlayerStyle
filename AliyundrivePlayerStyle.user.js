@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         AliyundrivePlayerStyle
-// @version      0.9
+// @namespace    http://tampermonkey.net/
+// @version      0.95
 // @description  Aliyundrive Player Style
 // @author       JackieZheng
 // @match        *://www.aliyundrive.com/drive/*
 // @icon         https://gw.alicdn.com/imgextra/i3/O1CN01aj9rdD1GS0E8io11t_!!6000000000620-73-tps-16-16.ico
-// @namespace    https://greasyfork.org/en/scripts/434611
 // @supportURL   https://github.com/JackieZheng/AliyundrivePlayerStyle/issues
 // @grant    GM_addStyle
 // ==/UserScript==
