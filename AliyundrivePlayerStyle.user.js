@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AliyundrivePlayerStyle
 // @namespace    http://tampermonkey.net/
-// @version      0.95
+// @version      1.0
 // @description  Aliyundrive Player Style
 // @author       JackieZheng
 // @match        *://www.aliyundrive.com/drive/*
