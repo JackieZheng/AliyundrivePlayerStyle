@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AliyundrivePlayerStyle
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Aliyundrive Player Style
 // @author       JackieZheng
 // @match        *://www.aliyundrive.com/drive/*
@@ -19,6 +19,8 @@ GM_addStyle(".toolbar-wrapper[data-visible=true]:hover,.toolbar-wrapper--1NDow[d
 GM_addStyle("video{top:60px !important;height:calc( 100% - 60px ) !important;}");
 GM_addStyle(".video-stage.video,.video-stage.thumbnail,.video-stage--3LCB4.video--26SLZ,.video-stage--3LCB4.thumbnail--2T1JI{top:60px !important;height:calc( 100% - 60px ) !important;}");
 GM_addStyle(".drawer-item,.drawer-item--2cNtQ,.drawer-item[data-is-current=true],.drawer-item--2cNtQ[data-is-current=true]{justify-content: center !important;}");
+GM_addStyle(".drawer-item[data-is-current=true] .title .filename,.drawer-item--2cNtQ[data-is-current=true] .title--2vewu .filename--3hcxw{color: #faad14; !important;}");
+GM_addStyle(".drawer-item[data-is-current=true] .text,.drawer-item--2cNtQ[data-is-current=true] .text--AMJbu,.drawer-item--2cNtQ[data-is-current=true] .text--3NvlJ{color: #faad14; !important;}");
 
 
 (function() {
