@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         AliyundrivePlayerStyle
 // @namespace    http://tampermonkey.net/
-// @version      0.7
+// @version      0.8
 // @description  Aliyundrive Player Style
 // @author       JackieZheng
-// @match        *://www.aliyundrive.com/drive/folder/*
+// @match        *://www.aliyundrive.com/drive/*
 // @icon         https://gw.alicdn.com/imgextra/i3/O1CN01aj9rdD1GS0E8io11t_!!6000000000620-73-tps-16-16.ico
 // @grant    GM_addStyle
 // ==/UserScript==
@@ -22,4 +22,16 @@ GM_addStyle(".drawer-item,.drawer-item--2cNtQ,.drawer-item[data-is-current=true]
 
 (function() {
     'use strict';
+    setTimeout(getTitle, 2000 );
+    window.addEventListener("hashchange", getTitle);
+    document.body.addEventListener('click',getTitle, false);
+    document.body.addEventListener('mousemove',getTitle, false);
+    function getTitle(){
+        var divLength=document.querySelectorAll("div[class^=breadcrumb-item-link]").length;
+        if(divLength>0)
+        {
+            document.title=document.querySelectorAll("div[class^=breadcrumb-item-link]")[divLength-1].textContent;
+        }
+    }
+
 })()
